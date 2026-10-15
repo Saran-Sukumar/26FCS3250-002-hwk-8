@@ -1,59 +1,11 @@
-# Overview
+User Story #1
+As an HR staff member, I want to create a job description and generate a shareable link so that I can post the job vacancy on platforms such as LinkedIn and attract qualified candidates. Given that a company has an open position, when the HR staff member creates and publishes the job description, then the system should save the job description and generate a unique link that can be copied and shared on external platforms.
 
-The goal of this assignment is to assess your understanding on how to write user stories. The user story format—typically written as:
+User Story #2
+As a candidate, I want to apply for a job by completing an application form and uploading my documents so that I can be considered for the position. Given that a job vacancy is available, when the candidate completes the application form and submits the required documents, such as a CV and letters of recommendation, then the system should save the application, store the uploaded documents, and confirm that the application was submitted successfully.
 
-```
-As a [type of user], I want [some goal] so that [some reason]
-```
+User Story #3
+As a hiring committee member, I want to review candidates' applications, reject candidates who do not meet the job requirements, and record interview results and hiring decisions so that the committee can select the most qualified candidate efficiently. Given that candidates have applied for a position, when the hiring committee evaluates their applications and rejects a candidate who does not meet the requirements, then the system should update the candidate's status and automatically send an email notifying them that they are no longer being considered. For candidates who meet the requirements, the system should allow the committee to record interview results and the final hiring decision.
 
-—did originate from Agile methodologies, specifically from Extreme Programming (XP) and later became a core practice in Scrum and other Agile frameworks.
-
-# Instructions 
-
-Write 4 (four) user stories for the following scenario. 
-
-A system that allows companies to hire employees to fill vacancies. A job description can be created and a link must be provided for posting on platforms such as LinkedIn and similar. Candidates apply for a job by filling out a form and sending documents such as CVs and letters of recommendation, for example. A hiring committee evaluates all candidates for a position. The system should allow the hiring committee to discard candidates who do not meet the requirements. In these cases, an email should automatically be sent to the candidate saying that they are no longer being considered. The remaining candidates are interviewed and a decision is then made. Analytical reports can be obtained for any completed hiring process.
-
-Submit your answers by updating this file, rewriting the provided templates. 
-
-## User Story #1
-
-Context: "A job description can be created and a link must be provided for posting on platforms such as LinkedIn and similar" 
-
-```
-As an HR staff member, I want to [perform some task] so that I can [achieve some goal]. Given that [some context], when [some action is carried out] then [a set of observable outcomes should occur]. 
-```
-
-## User Story #2
-
-Context: "Candidates apply for a job by filling out a form and sending documents such as CVs and letters of recommendation, for example"
-
-```
-As a candidate, I want to [perform some task] so that I can [achieve some goal]. Given that [some context], when [some action is carried out] then [a set of observable outcomes should occur]. 
-```
-
-## User Story #3
-
-Context: "A hiring committee evaluates all candidates for a position. The system should allow the hiring committee to discard candidates who do not meet the requirements. In these cases, an email should automatically be sent to the candidate saying that they are no longer being considered. The remaining candidates are interviewed and a decision is then made." 
-
-```
-As a hiring committee member, I want to [perform some task] so that I can [achieve some goal]. Given that [some context], when [some action is carried out] then [a set of observable outcomes should occur]. 
-```
-
-## User Story #4
-
-Context: "Analytical reports can be obtained for any completed hiring process"
-
-```
-As an HR staff member, I want to [perform some task] so that I can [achieve some goal]. Given that [some context], when [some action is carried out] then [a set of observable outcomes should occur]. 
-```
-
-# Rubric
-
-+1 User Story #1
-
-+1 User Story #2 
-
-+2 User Story #3 
-
-+1 User Story #4
+User Story #4
+As an HR staff member, I want to generate analytical reports for completed hiring processes so that I can evaluate recruitment results and make informed decisions for future hiring. Given that a hiring process has been completed, when the HR staff member requests an analytical report, then the system should generate a report containing relevant information, such as the number of applicants, rejected candidates, interviewed candidates, and the final hiring outcome.
